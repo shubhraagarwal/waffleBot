@@ -4,7 +4,7 @@ import json
 import datetime
 
 
-my_secret = 'ODQ5NDk3ODM4MzQ5NzEzNDA4.YLcCgw.ZdaCzyJS2j0LaIxBe6yLKpWV1bw'
+my_secret = 'OTcxMDEyOTcwNDY3NDUwODgw.YnEUTA.dj0j4N2SWFwVWSfET8N7rLkCF9I'
 client = discord.Client()
 
 def get_syrups(author):
