@@ -1,10 +1,13 @@
+import os
+from dotenv import load_dotenv
 import discord
 import requests
 import json
 import datetime
 
-
-my_secret = 'OTcxMDEyOTcwNDY3NDUwODgw.YnEUTA.dj0j4N2SWFwVWSfET8N7rLkCF9I'
+load_dotenv()
+my_secret = os.getenv("DISCORD_TOKEN")
+# my_secret = 'ODQ5NDk3ODM4MzQ5NzEzNDA4.YLcCgw.wpDkf1qN0p6Pw_bHXSlmFM4Lf60'
 client = discord.Client()
 
 def get_syrups(author):
